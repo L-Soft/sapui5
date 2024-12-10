@@ -1,8 +1,13 @@
+![UI5 logo](https://sap.github.io/ui5-tooling/stable/images/UI5_logo_wide.png)
+
 # SAPUI5
+
 * [Step 1: Hello World! - sap-01-helloworld](https://sapui5.hana.ondemand.com/sdk/#/topic/2680aa9b16c14a00b01261d04babbb39)
 
 # 학습 아이템
 
+* [UI5 Demo Kit](https://sapui5.hana.ondemand.com/sdk/#/topic/2680aa9b16c14a00b01261d04babbb39)
+* [UI5 Tooling](https://sap.github.io/ui5-tooling/stable/)
 * [MVC(모델-뷰-컨트롤러) 패턴](https://developer.mozilla.org/ko/docs/Glossary/MVC)
 * Javascript 또는 Typescript
 * nodejs
