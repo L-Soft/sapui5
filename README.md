@@ -119,3 +119,10 @@ ListItems.view.xml
 # Component Configuration
 ## 🦀규칙
 * 가장 먼저 호출되는 자바스크립트 파일(Component.js)
+
+# Descriptor for Applications
+## 🦀규칙
+* SAPUI5 1.30버전부터 manifest.json 파일에서 서비스 구성, 시작 뷰, 라우팅 설정합니다.
+
+# 변경 사항
+* https://openui5.hana.ondemand.com/resources/sap-ui-core.js에서 https://ui5.sap.com/1.130.0/resources/sap-ui-core.js로 변경
