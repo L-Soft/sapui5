@@ -1,0 +1,112 @@
+{
+  "_version": "1.1.0",
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "sap.ui.sap-15-nested-views",
+    "i18n": "i18n/i18n.properties",
+    "type": "application",
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "ach": "ach",
+    "AnalyticalConfigurationLocation": {
+      "uri": "./config/analyticalConfiguration.json",
+      "type": "JSON"
+    },
+    "offline": true
+  },
+  "sap.fiori": {
+    "_version": "1.1.0",
+    "registrationIds": [
+      "FioriId"
+    ],
+    "archeType": "analytical"
+  },
+  "sap.ui": {
+    "_version": "1.1.0",
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": false
+    },
+    "supportedThemes": [
+      "sap_horizon_hcb",
+      "sap_horizon"
+    ]
+  },
+  "sap.ui5": {
+    "_version": "1.1.0",
+    "dependencies": {
+      "minUI5Version": "1.38.1",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.ca.ui": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.m": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.ui.layout": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.ushell": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.apf": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        },
+        "sap.viz": {
+          "minVersion": "1.38.1",
+          "lazy": false
+        }
+      }
+    },
+    "extends": {
+      "component": "sap.apf.base"
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "sap.ui.sap-15-nested-views.i18n.i18n",
+          "suppoertedLocales": [
+            ""
+          ],
+          "fallbackLocale": ""
+        },
+        "uri": "<uriRelativeToManifest>"
+      }
+    },
+    "rootView": {
+      "viewName": "sap.ui.sap-15-nested-views.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
+    "config": {
+      "sapFiori2Adaptation": true
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+specVersion: "4.0"
+metadata:
+  name: sap-12-shell-control-as-container
+type: application
+framework:
+  name: SAPUI5
+  version: "1.130.0"

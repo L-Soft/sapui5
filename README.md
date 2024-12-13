@@ -1,11 +1,11 @@
 ![UI5 logo](https://sap.github.io/ui5-tooling/stable/images/UI5_logo_wide.png)
+# SAP UI5
+## 학습 관련된 사이트 
+* [Walkthrough Tutorial (JavaScript)](https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db) 사이트 기준으로 예제 학습하고 있습니다.
+* [UI5 Tooling](https://sap.github.io/ui5-tooling/stable/)
+* [SAP UI5 / Fiori - Full Course](https://www.youtube.com/watch?v=C9cK2Z2JDLg) 유튜브 동영상 강의
 
-# SAPUI5
-
-* [Step 1: Hello World! - sap-01-helloworld](https://sapui5.hana.ondemand.com/sdk/#/topic/2680aa9b16c14a00b01261d04babbb39)
-
-# 학습 아이템
-
+## 학습 아이템
 * [UI5 Demo Kit](https://sapui5.hana.ondemand.com/sdk/#/topic/2680aa9b16c14a00b01261d04babbb39)
 * [UI5 Tooling](https://sap.github.io/ui5-tooling/stable/)
 * [MVC(모델-뷰-컨트롤러) 패턴](https://developer.mozilla.org/ko/docs/Glossary/MVC)
@@ -13,7 +13,7 @@
 * nodejs
 * [OData4](https://www.odata.org/)
 
-# 설치 방법
+## 설치 방법
 1. https://nodejs.org/en/download/package-manager, node-v22.12.0-x64.msi 다운로드 후 설치
 1. ui5 cli 전역 설치
 1. 프로젝트 폴더 생성
@@ -21,13 +21,12 @@
 1. UI5 초기화
 1. webapp\manifest.json 파일 생성, 아래 주소의 Example 복사 후 붙여넣기
    1. https://sapui5.hana.ondemand.com/sdk/#/topic/74038a52dcd7404e82b38be6d5fb1458
-
 1. UI5 버전 설정
 1. UI5 build - 빌드
 1. UI5 serve - 프론트엔드 서버 시작
 
 ```bash
-# 전역 설치
+# 전역 설치 (최초 한번만 진행하면 됩니다.)
 npm install --global @ui5/cli
 
 # 프로젝트 폴더 생성
@@ -125,4 +124,10 @@ ListItems.view.xml
 * SAPUI5 1.30버전부터 manifest.json 파일에서 서비스 구성, 시작 뷰, 라우팅 설정합니다.
 
 # 변경 사항
-* https://openui5.hana.ondemand.com/resources/sap-ui-core.js에서 https://ui5.sap.com/1.130.0/resources/sap-ui-core.js로 변경
+* 10번 예제부터 오류가 발생하고, CORS(Cross Origin Resource Sharing) 문제가 발생하여 주소 변경합니다.
+* 10번 예제 중요, manifest.json 파일 기능을 확인합니다.
+* 변경 전: https://openui5.hana.ondemand.com/resources/sap-ui-core.js 
+* 변경 후: https://ui5.sap.com/1.130.0/resources/sap-ui-core.js
+* 참조 사이트: 
+  * [Variant for Bootstrapping from Content Delivery Network](https://sapui5.hana.ondemand.com/sdk/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae.html)
+  * [SAPUI5 Versions Maintenance Status](https://sapui5.hana.ondemand.com/versionoverview.html)
