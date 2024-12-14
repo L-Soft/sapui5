@@ -66,19 +66,19 @@ URL: http://localhost:8080
 
 # 💡참고 사항
 
-## ❔백엔드(SAP)에서 OData Version 설정하는 부분
+## ❔OData Version 설정하는 부분
 
 * ❕[Step 25: Remote OData Service](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109) 예제에서 아래 부분을 참조하여 버전을 설정하면 됩니다.
 
 ```json
 "dataSources": {
-    "invoiceRemote": {
-        "uri": "V2/Northwind/Northwind.svc/",
-        "type": "OData",
-        "settings": {
-            "odataVersion": "2.0"
-        }
-    }
+"invoiceRemote": {
+"uri": "V2/Northwind/Northwind.svc/",
+"type": "OData",
+"settings": {
+"odataVersion": "2.0"
+}
+}
 }
 ```
 
