@@ -72,13 +72,13 @@ URL: http://localhost:8080
 
 ```json
 "dataSources": {
-"invoiceRemote": {
-"uri": "V2/Northwind/Northwind.svc/",
-"type": "OData",
-"settings": {
-"odataVersion": "2.0"
-}
-}
+  "invoiceRemote": {
+    "uri": "V2/Northwind/Northwind.svc/",
+    "type": "OData",
+      "settings": {
+        "odataVersion": "2.0"
+    }
+  }
 }
 ```
 
