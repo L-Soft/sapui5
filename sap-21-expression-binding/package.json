@@ -1,0 +1,17 @@
+{
+  "name": "sap-21-expression-binding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve -o test/mockServer.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3",
+    "ui5-middleware-simpleproxy": "^3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

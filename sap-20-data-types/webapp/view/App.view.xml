@@ -1,0 +1,17 @@
+<mvc:View controllerName="sap.ui/sap-20-data-types.controller.App"
+        xmlns="sap.m"
+        xmlns:mvc="sap.ui.core.mvc"
+        displayBlock="true">
+    <Shell>
+        <App class="myAppDemoWT">
+            <pages>
+                <Page title="{i18>homePageTitle}">
+                    <content>
+                        <mvc:XMLView viewName="sap.ui.sap-20-data-types.view.HelloPanel" />
+                        <mvc:XMLView viewName="sap.ui.sap-20-data-types.view.InvoiceList" />
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
