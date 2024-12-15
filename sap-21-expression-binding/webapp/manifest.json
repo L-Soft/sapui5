@@ -48,36 +48,36 @@
   },
   "sap.ui5": {
     "_version": "1.1.0",
-    "dependencies": {
-      "minUI5Version": "1.38.1",
-      "libs": {
-        "sap.ui.core": {
-          "minVersion": "1.38.1",
-          "lazy": false
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "type": "View",
+        "viewType": "XML",
+        "path": "sap.ui.sap-21-expression-binding.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "overview",
+          "target": "overview"
         },
-        "sap.ca.ui": {
-          "minVersion": "1.38.1",
-          "lazy": false
+        {
+          "pattern": "detail/{invoicePath}",
+          "name": "detail",
+          "target": "detail"
+        }
+      ],
+      "targets": {
+        "overview": {
+          "id": "overview",
+          "name": "Overview"
         },
-        "sap.m": {
-          "minVersion": "1.38.1",
-          "lazy": false
-        },
-        "sap.ui.layout": {
-          "minVersion": "1.38.1",
-          "lazy": false
-        },
-        "sap.ushell": {
-          "minVersion": "1.38.1",
-          "lazy": false
-        },
-        "sap.apf": {
-          "minVersion": "1.38.1",
-          "lazy": false
-        },
-        "sap.viz": {
-          "minVersion": "1.38.1",
-          "lazy": false
+        "detail": {
+          "id": "detail",
+          "name": "Detail"
         }
       }
     },

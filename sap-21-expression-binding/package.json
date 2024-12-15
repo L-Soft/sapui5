@@ -4,10 +4,13 @@
   "main": "index.js",
   "scripts": {
     "start": "ui5 serve -o test/mockServer.html",
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@ui5/cli": "^3",
+    "local-web-server": "^5",
     "ui5-middleware-simpleproxy": "^3"
   },
   "keywords": [],
